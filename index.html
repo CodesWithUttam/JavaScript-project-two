@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWU - ToDo Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar d-flex align-center justify-between p-tb-1">
+                <div class="logo">
+                    <img src="logo-removebg-preview.png" width="100" alt="">
+                </div>
+                <div class="nav-text">
+                    <h1>ToDo Notes App</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="write-section mt-2">
+        <div class="container">
+            <div class="write-box p-3">
+                <h1>My ToDo Notes</h1>
+                <input type="text" id="title" placeholder="Add Title">
+                <textarea name="desc" id="desc" rows="6" placeholder="Write something..."></textarea>
+                <div class="text-center">
+                    <button type="button" id="saveBtn" class="btn">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-section mt-2">
+        <div class="container">
+            <div id="dataBox" class="data-box">
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
