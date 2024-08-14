@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.p-tb-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header{
+    background-color: whitesmoke;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.write-box{
+    padding: 3rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+input{
+    font-size: 2rem;
+}
+
+textarea{
+    font-size: 1.6rem;
+}
+
+input,textarea{
+    outline: none;
+    padding: 0.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    font-weight:600;
+    color: white;
+    background-color: #198754;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+
+.btn2{
+    margin-top: 2rem;
+    border: none;
+    font-weight:500;
+    font-size: 1.4rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    color: white;
+    margin-right: 1rem;
+}
+
+.btn2-blue{
+    background-color: #0d6efd;
+}
+
+.btn2-red{
+    background-color: #dc3545;
+}
+
+.data-section{
+    margin-bottom: 5rem;
+}
+
+.data-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+}
+
+.item-box{
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .container{
+        padding: 0 2rem;
+    }
+
+    .data-box{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width:850px) {
+    html{
+        font-size: 52%;
+    }
+    .data-box{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    html{
+        font-size: 45%;
+    }
+    .data-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
