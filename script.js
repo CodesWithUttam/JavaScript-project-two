@@ -34,6 +34,7 @@ const addData = () => {
 
         title.value = '';
         desc.value = '';
+        saveBtn.innerHTML = 'Save';
     }
 
     else {
